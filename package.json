@@ -1,0 +1,31 @@
+{
+  "name": "shift-handover-app",
+  "version": "1.0.0",
+  "description": "## Overview The Shift Handover Web Application is a full-stack application designed to facilitate the handover process between shifts in various industries. It includes features such as user authentication, email notifications, audit logging, and REST APIs, all deployable locally using Docker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdsajid786/shift-handover-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdsajid786/shift-handover-app/issues"
+  },
+  "homepage": "https://github.com/mdsajid786/shift-handover-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.3",
+    "typescript": "^5.8.3"
+  }
+}
